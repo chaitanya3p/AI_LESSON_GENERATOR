@@ -2,6 +2,7 @@ services:
   - type: web
     name: ai-teacher-story-lesson-generator
     runtime: python
+    rootDir: lesson_gen
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
