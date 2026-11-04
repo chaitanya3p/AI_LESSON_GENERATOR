@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ai-teacher-story-lesson-generator
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: GRADIO_SHARE
+        value: "false"
+      - key: GRADIO_SERVER_NAME
+        value: "0.0.0.0"
+      - key: LESSON_API_MODEL
+        value: "Qwen/Qwen2.5-0.5B-Instruct"
+      - key: HF_TOKEN
+        sync: false
