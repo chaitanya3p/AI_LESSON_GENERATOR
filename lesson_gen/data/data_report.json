@@ -1,0 +1,43 @@
+{
+  "topics": 32,
+  "heldout_topics": [
+    "Community helpers",
+    "Counting up to 20",
+    "Healthy food",
+    "Integers",
+    "Ratio",
+    "Sound"
+  ],
+  "generated_raw": 2233,
+  "duplicates_removed": 0,
+  "rejected_by_critic": {
+    "reading level too high": 313
+  },
+  "kept": 1920,
+  "split_sizes": {
+    "train": 1248,
+    "val": 156,
+    "test": 156,
+    "test_unseen": 360
+  },
+  "by_grade": {
+    "1": 180,
+    "2": 240,
+    "3": 240,
+    "4": 300,
+    "5": 300,
+    "6": 240,
+    "7": 240,
+    "8": 180
+  },
+  "by_subject": {
+    "EVS": 300,
+    "Math": 480,
+    "Values": 240,
+    "Science": 540,
+    "Social Science": 240,
+    "English": 120
+  },
+  "unique_outputs": 1920,
+  "train_test_topic_overlap": []
+}
