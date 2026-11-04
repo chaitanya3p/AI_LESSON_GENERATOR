@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Gradio
+.gradio/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Model files - do not upload large weights
+adapters/
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Generated outputs
+results/
+outputs/
+wandb/
+
+# Notebook cache
+.ipynb_checkpoints/
