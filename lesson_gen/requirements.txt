@@ -1,0 +1,7 @@
+gradio>=4.40
+python-docx>=1.1
+torch
+transformers>=4.44
+peft>=0.12
+accelerate
+huggingface_hub>=0.27
